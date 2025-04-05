@@ -103,3 +103,4 @@ home page in markdown syntax...
 * 2022/08/24: 0.60, first release
 * to-do, more themes
  
+cd blog-source && mkdir blog-content && cd blog-content && git init && git add . && git commit -m "Initial commit" && cd ../.. && cd markdown-blog && git submodule add ../blog-source/blog-content blog-content
